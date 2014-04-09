@@ -1,0 +1,28 @@
+{
+  "name": "http-static-gzip-regexp",
+  "version": "0.0.1",
+  "description": "Middleware for using pre-compressed gzip files based on regexp url pattern",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:3sv/http-static-gzip-regexp.git"
+  },
+  "keywords": [
+    "node",
+    "node.js",
+    "express",
+    "http",
+    "gzip",
+    "static",
+    "regexp"
+  ],
+  "author": "dries@3sv.be",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/3sv/http-static-gzip-regexp/issues"
+  },
+  "homepage": "https://github.com/3sv/http-static-gzip-regexp",
+  "Dependencies": {
+    "mime": "^1.2.11"
+  }
+}
