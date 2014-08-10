@@ -22,7 +22,7 @@
     "url": "https://github.com/3sv/http-static-gzip-regexp/issues"
   },
   "homepage": "https://github.com/3sv/http-static-gzip-regexp",
-  "Dependencies": {
+  "dependencies": {
     "mime": "^1.2.11"
   }
 }
