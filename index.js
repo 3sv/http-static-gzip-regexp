@@ -15,11 +15,12 @@ module.exports = function staticGzipRegExp(urlRegexp) {
             return next();
         }
 
-        //Get the original mime type
+        //Get the original mime type and default character set
         var contentType = mime.lookup(request.url);
-
-        //Set the content type according to the original file
-        response.setHeader('Content-Type', contentType);
+        var characterSet = mime.charsets.lookup(contentType);
+ 
+        //Set the content type and default character set according to the original file
+        response.setHeader('Content-Type', contentType + '; charset=' + characterSet);
 
         //Change url
         request.url = request.url + ".gz";
