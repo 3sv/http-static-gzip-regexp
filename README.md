@@ -13,7 +13,7 @@ This solution can be used with any static server as long as this middleware is a
 You can still add dynamic compression for files that you don't have a static version for, just add the dynamic compression middleware layer after this one (ex. app.use(express.compress()))
 
 ## Installation
-	  $ npm install connect-gzip-static
+	  $ npm install http-static-gzip-regexp
 	  
 ## Usage
 ```javascript
